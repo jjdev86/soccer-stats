@@ -12,7 +12,7 @@ function Header() {
       }}
       className="header"
     >
-      <div style={{ backgroundColor: "#072146", height: "20px" }}>
+      <div style={{ backgroundColor: "#072146", height: "20px"}}>
         <div
           className="a-white-text a-logo"
           style={{ fontSize: "16px", lineHeight: "20px" }}
@@ -21,7 +21,7 @@ function Header() {
         </div>
       </div>
       <ol className="header">
-        <li className="GSkImd">
+        <li className="GSkImd a-focus-li">
           <a href="/">MATCHES</a>
         </li>
         <li className="GSkImd">

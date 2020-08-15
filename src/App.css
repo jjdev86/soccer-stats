@@ -44,8 +44,7 @@ ol.header li a {
     cursor: pointer;
     padding: 16px 0px 14px;
 }
-li:focus {
-  font-weight: 800;
-  color: red;
-  border-bottom: solid #fff 2px;
+.a-focus-li {
+  opacity: 1;
+  border-bottom: 2px solid #fff;
 }
