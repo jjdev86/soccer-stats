@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import teams from './teams.json';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App teams={teams.result}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
