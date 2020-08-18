@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div
+    <header
       style={{
         position: "fixed",
         top: "0px",
@@ -12,12 +12,15 @@ function Header() {
       }}
       className="header"
     >
-      <div style={{ backgroundColor: "#072146", height: "20px"}}>
+      <div style={{ backgroundColor: "#072146", height: "30px"}}>
         <div
           className="a-white-text a-logo"
           style={{ fontSize: "16px", lineHeight: "20px" }}
         >
           Liga MX
+        </div>
+        <div className="a-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8f/Liga_MX.svg" height="40px" alt="liga_MX logo"></img>
         </div>
       </div>
       <ol className="header">
@@ -37,7 +40,8 @@ function Header() {
           <a href="/players">PLAYERS</a>
         </li>
       </ol>
-    </div>
+    </header>
+
   );
 }
 export default Header;
