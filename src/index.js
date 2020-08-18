@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import teams from './teams.json';
+import apertura from './apertura2020.json';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App teams={teams.result}/>
+    <App seasonData={apertura}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
