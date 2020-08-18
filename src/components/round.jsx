@@ -1,23 +1,12 @@
 import React from "react";
+import Team from './team';
+
 
 function Round({ round }) {
   return (
-    <div>
+    <div className="round-container">
       {round.map((match) => (
-        <div>
-           <div>
-              <div>{match.team1}</div>
-              <div>{match.team2}</div>
-              <div>{match.date}</div>
-              {match.score ? (
-                <div className="a-score">{`${match.score.ft[0]} - ${match.score.ft[1]}`}</div>
-              ) : (
-                <div></div>
-              )}
-            </div>
-            {/* <img src={team.team_logo} /> */}
-
-        </div>
+          <Team match={match}/>
       ))}
     </div>
   );
