@@ -1,12 +1,12 @@
 import React from "react";
-import Team from './team';
+import Match from './match';
 
 
 function Round({ round }) {
   return (
     <div className="round-container">
       {round.map((match) => (
-          <Team match={match}/>
+          <Match match={match}/>
       ))}
     </div>
   );
