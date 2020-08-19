@@ -38,7 +38,7 @@ function App({ seasonData }) {
   return (
     <div className="App">
       <Header />
-      <div id="content">
+      <div id="content" style={{backgroundColor:"grey"}}>
         <div
           style={{
             backgroundColor: "rgb(7, 33, 70)",

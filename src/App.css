@@ -68,7 +68,8 @@ ol.header li a {
   width: 100px;
 }
 .game-block {
-  border-bottom: solid 1px #ebebeb;
+  border: solid 1px #ebebeb;
+
 }
 .tb-c {
   background-color: #fff;
@@ -84,4 +85,17 @@ ol.header li a {
   background: #f5f5f5;
   padding: 12px 24px 10px;
   text-align: left;
+}
+.round-container {
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.match-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
